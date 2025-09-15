@@ -34,12 +34,12 @@ const styles = StyleSheet.create({
     }
     ,
 
-    input: {
+    input: {    
         width: '100%',
         height: 50,
         borderRadius: 7,
         backgroundColor: 'rgba(255, 255, 255, 0.05)',
-        borderColor: 'rgba(255, 255, 255, 0.12)',
+        borderColor: 'rgb(162, 162, 162)',
         borderWidth: 1,
         alignItems: 'flex-end',
         justifyContent: 'center',

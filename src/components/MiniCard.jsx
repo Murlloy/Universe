@@ -10,7 +10,7 @@ export default function MiniCard({quantidade}) {
             <Text style={{color: "white", alignSelf: "flex-end", marginBottom: 10}}>Veiculos Ativos</Text>
 
             <View style={styles.flutuante}>
-                <Text style={{color: "white",}}>2 Vip Universe</Text>
+                <Text style={{color: "white", fontSize: 12}}>2 Vip Universe</Text>
             </View>
         </View>
 
@@ -45,7 +45,12 @@ const styles = StyleSheet.create({
     },
 
     flutuante: {
-        backgroundColor: "rgba(139, 44, 245, 0.28)"
+        backgroundColor: "rgba(139, 44, 245, 0.28)",
+        position: 'absolute',
+        top: 10,
+        right: 15,
+        padding: 5,
+        borderRadius: 15
     }
 
 })

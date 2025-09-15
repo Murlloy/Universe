@@ -1,6 +1,7 @@
 import { View, StyleSheet, StatusBar, Image} from "react-native";
 import Navbar from "../components/NavBar";
 import MiniCard from "../components/MiniCard";
+import BigCard from "../components/BigCard";
 
 export default function MenuPage() {
 
@@ -14,6 +15,8 @@ export default function MenuPage() {
             <View style={styles.menuMain}>
 
                 <MiniCard quantidade={"12"}/>
+ 
+                <BigCard />
 
             </View>
 
@@ -41,7 +44,8 @@ const styles = StyleSheet.create ({
 
     menuMain: {
         width: "80%",
-        height: "100%"
+        height: "100%",
+        gap: 25
     }
 
     })
